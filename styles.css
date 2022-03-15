@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    height: 20vh;
+    background-color: green;
+    border: 1px solid white;
+}
+
+div {
+    border: 1px solid white;
+}
+
+.container {
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+
+}
+
+.nav {
+    width: 30%;
+    height: 50%;
+    background-color: green;
+}
+
+.ads {
+    width: 30%;
+    height: 50%;
+    background-color: green;
+}
+
+.article {
+    width: 70%;
+    height: 80%;
+    background-color: green;
+}
+
+.footer {
+    width: 70%;
+    height: 20%;
+    background-color: green;
+}
